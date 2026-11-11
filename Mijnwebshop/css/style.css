@@ -1,0 +1,50 @@
+#header {
+ background-color: #89b5c5;
+ height: 125px;
+ text-align: center;
+ font-size: 22px;
+padding: 20px
+
+}
+
+body {
+ font-family: Arial, sans-serif;
+ color: #333333;
+ margin: 0;
+
+}
+
+.product {
+display:inline-block
+
+
+}
+
+#content {
+ background-color: #e8e5db;
+ text-align: center;
+ padding: 20px; 
+}
+
+
+#content_ns2 {
+ background-color: #efae96
+
+}
+
+#content_tlozoot {
+ background-color: #669f60
+
+}
+#content_gta6 {
+ background-color: #7ab2ca
+
+}
+
+#footer {
+ background-color: #b2b2b2;
+ height: 50px;
+ text-align: center;
+
+}
+
