@@ -16,8 +16,17 @@ body {
 
 .product {
 display:inline-block
+  
+}
 
+.product img {
+    width: 300px;    
+}
 
+.prijs {
+    color: #d9480f;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 #content {
@@ -51,10 +60,15 @@ display:inline-block
 
 }
 
-#footer {
- background-color: #b2b2b2;
- height: 50px;
- text-align: center;
+#content_mk8d {
+ background-color: #40dafa
 
+}
+
+#footer {
+    background-color: #333333;
+    color: #efeaea;
+    padding: 20px;
+    text-align: center;
 }
 
