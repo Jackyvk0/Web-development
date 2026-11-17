@@ -1,84 +1,125 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>📺De GameHoek📺</title>
-    <link rel="stylesheet" href="css/style.css"
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- De titel -->
+  <title>📺De GameHoek</title>
+  <link rel="stylesheet" href="css/style.css" </head>
+
 <body>
   <div id="container">
 
-    <div id="header">  <h1>De Gamehoek</h1>
-      <p>Welkom bij De Gamehoek, de webshop for alles game gerelateerd, zoals games en accessoires!</p> 
-      
-     </div> 
+    <!-- De voortekst bovenin de pagina + logo (later) en de "producten", "contact" en "over ons" knoppen -->
+    <div id="header">
+      <h1>De Gamehoek</h1>
+      <p>Welkom bij De Gamehoek, de webshop for alles game gerelateerd, zoals games en accessoires!</p>
+      <ul id="menu">
+        <li><a href="index.html">Producten</a></li>
+        <li><a href="overons.html">Over ons</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
 
-     <div id="content">
+    <!-- Tekst dat aan geeft de populaire producten van nu -->
+    <div id="content">
       <h2>Populair</h2>
 
 
-      <div class="product">
-        <h3>Nintendo Switch 2</h3>
-        <a href ="ns2detail.html"><img src="images/ns2.avif" alt="Nintendo Switch 2 Console" width=></a>
-        <div class="prijs"><p>&euro; 499,99</p></div>
-        <a href ="ns2detail.html">Bekijk</a>
-      </div>
-      
+      <div class="producten">
 
-      <div class="product">
-        <h3>Grand Theft Auto VI | PS5</h3>
-        <a href ="gta6detailps5.html"> <img src="images/gta6_ps5.webp" alt="Gta 6 voor de ps5" width=></a>
-        <div class="prijs"><p>&euro; 79,99</p></div>
-        <a href ="gta6detailps5.html">Bekijk</a> 
-      </div>
+        <!-- Nintendo Switch 2 + link en prijs -->
+        <div class="product">
+          <h3>Nintendo Switch 2</h3>
+          <a href="ns2detail.html"><img src="images/ns2.avif" alt="Nintendo Switch 2 Console" width=></a>
+          <div class="prijs">
+            <p>&euro; 499,99</p>
+          </div>
+          <a href="ns2detail.html" class="knop">Bekijk</a>
+        </div>
 
-      <div class="product">
-        <h3>The Legend Of Zelda: Ocarina Of Time</h3>
-         <a href ="tlozootdetail.html"><img src="images/tlozoot_ns2.webp" alt="The Legend Of Zelda: Ocarina Of Time voor de Nintendo Switch 2" width=></a> 
-        <div class="prijs"><p>&euro; 69,99</p></div>
-        <a href ="tlozootdetail.html">Bekijk</a> 
-      </div>
+        <!-- Grand Theft Auto VI voor de PS5 + link en prijs-->
+        <div class="product">
+          <h3>Grand Theft Auto VI | PS5</h3>
+          <a href="gta6detailps5.html"> <img src="images/gta6_ps5.webp" alt="Gta 6 voor de ps5" width=></a>
+          <div class="prijs">
+            <p>&euro; 79,99</p>
+          </div>
+          <a href="gta6detailps5.html" class="knop">Bekijk</a>
+        </div>
 
-      <div class="product">
-        <h3>Grand Theft Auto VI | Xbox</h3>
-         <a href ="gta6detailsx.html"><img src="images/gta6_sx.webp" alt="Gta 6 voor de Xbox Series x en s" width=>
-        <div class="prijs"><p>&euro; 79,99</p></div>
-        <a href ="gta6detailsx.html">Bekijk</a> 
-      </div>
+        <!-- The Legend Of Zelda: Ocarina Of Time voor de Nintendo Switch 2 + link en prijs -->
+        <div class="product">
+          <h3>The Legend Of Zelda: Ocarina Of Time</h3>
+          <a href="tlozootdetail.html"><img src="images/tlozoot_ns2.webp"
+              alt="The Legend Of Zelda: Ocarina Of Time voor de Nintendo Switch 2" width=></a>
+          <div class="prijs">
+            <p>&euro; 69,99</p>
+          </div>
+          <a href="tlozootdetail.html" class="knop">Bekijk</a>
+        </div>
 
-      <div class="product">
-        <h3>Call Of Duty: Modern Warfare 4 | PS5</h3>
-        <a href ="codmw4detailps5.html"><img src="images/codmw4_ps5.webp" alt="Call Of Duty Modern Warfare 4 voor de ps5" width=></a> 
-        <div class="prijs"><p>&euro; 79,99</p></div>
-        <a href ="codmw4detailps5.html">Bekijk</a> 
-      </div>
+        <!-- Grand Theft Auto VI voor de Xbox Series S/X + link en prijs -->
+        <div class="product">
+          <h3>Grand Theft Auto VI | Xbox</h3>
+          <a href="gta6detailsx.html"><img src="images/gta6_sx.webp" alt="Gta 6 voor de Xbox Series x en s" width=>
+            <div class="prijs">
+              <p>&euro; 79,99</p>
+            </div>
+            <a href="gta6detailsx.html" class="knop">Bekijk</a>
+        </div>
 
-      <div class="product">
-        <h3>Sony PlayStation 5 DualSense Controller</h3>
-        <a href ="ps5contwitdetail.html"><img src="images/ps5contwit.avif" alt="Playstation 5 controller wit" width=></a> 
-        <div class="prijs"><p>&euro; 69,99</p></div>
-        <a href ="ps5contwitdetail.html">Bekijk</a> 
-      </div>
+        <!-- Call Of Duty: Modern Warfare 4 voor de ps5 + link en prijs -->
+        <div class="product">
+          <h3>Call Of Duty: Modern Warfare 4 | PS5</h3>
+          <a href="codmw4detailps5.html"><img src="images/codmw4_ps5.webp"
+              alt="Call Of Duty Modern Warfare 4 voor de ps5" width=></a>
+          <div class="prijs">
+            <p>&euro; 79,99</p>
+          </div>
+          <a href="codmw4detailps5.html" class="knop">Bekijk</a>
+        </div>
 
-      <div class="product">
-        <h3>Sony PlayStation 5 Slim Console Disc</h3>
-        <a href ="ps5discdetail.html"><img src="images/ps5disc.webp" alt="Playstation 5 console disc wit" width=></a> 
-        <div class="prijs"><p>&euro; 765,99</p></div>
-        <a href ="ps5contwitdetail.html">Bekijk</a> 
-      </div>
+        <!-- Sony PlayStation 5 DualSense Controller + link en prijs -->
+        <div class="product">
+          <h3>Sony PlayStation 5 DualSense Controller</h3>
+          <a href="ps5contwitdetail.html"><img src="images/ps5contwit.avif" alt="Playstation 5 controller wit"
+              width=></a>
+          <div class="prijs">
+            <p>&euro; 69,99</p>
+          </div>
+          <a href="ps5contwitdetail.html" class="knop">Bekijk</a>
+        </div>
 
-      <div class="product">
-        <h3>Mario Kart 8 Deluxe</h3>
-        <a href ="mk8deluxedetail.html"><img src="images/mk8d_ns.webp" alt="Mario kart 8 deluxe voor nintendo switch" width=></a>
-      <div class="prijs"><p>&euro; 59,99</p></div>
-        <a href ="mk8deluxedetail.html">Bekijk</a> 
-      </div>
+        <!-- Sony PlayStation 5 Slim Console Disc + link en prijs -->
+        <div class="product">
+          <h3>Sony PlayStation 5 Slim Console Disc</h3>
+          <a href="ps5discdetail.html"><img src="images/ps5disc.webp" alt="Playstation 5 console disc wit" width=></a>
+          <div class="prijs">
+            <p>&euro; 765,99</p>
+          </div>
+          <a href="ps5contwitdetail.html" class="knop">Bekijk</a>
+        </div>
 
+        <!-- Mario kart 8 Deluxe voor nintendo switch + link en prijs -->
+        <div class="product">
+          <h3>Mario Kart 8 Deluxe</h3>
+          <a href="mk8deluxedetail.html"><img src="images/mk8d_ns.webp" alt="Mario kart 8 deluxe voor nintendo switch"
+              width=></a>
+          <div class="prijs">
+            <p>&euro; 59,99</p>
+          </div>
+          <a href="mk8deluxedetail.html" class="knop">Bekijk</a>
+        </div>
       </div>
-       <div id="footer"><a href ="Algemene_voorwaarden.html">Algemene voorwaarden</a></div> 
-       <div id="footer">&copy; 2026, De GameHoek </div> 
-       
     </div>
+
+    <!-- De algemene voorwaarden en de copyright -->
+    <div id="footer"><a href="Algemene_voorwaarden.html">Algemene voorwaarden</a></div>
+    <div id="footer">&copy; 2026, De GameHoek </div>
+
+  </div>
 </body>
+
 </html>

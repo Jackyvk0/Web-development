@@ -2,9 +2,9 @@
     background-color: #111111;
     color: #ffffff;
     height: 100px;
-    text-align: center; 
+    text-align: center;
     font-size: 32px;
-    line-height: 100px;   
+    line-height: 100px;
 }
 
 body {
@@ -14,23 +14,28 @@ body {
 
 #container {
     width: 960px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 
 #content {
     background-color: #ffffff;
-    padding: 20px; 
+    padding: 20px;
 }
+
 
 .product {
     border: 1px solid #cccccc;
-    padding: 10px;        
-    margin-bottom: 20px; 
+    padding: 10px;
+}
+
+.producten {
+    display: flex;
+    gap: 20px;
 }
 
 .product img {
-    width: 300px;    
+    width: 300px;
 }
 
 .prijs {

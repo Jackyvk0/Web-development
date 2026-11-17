@@ -1,76 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Dit is de voorkant/bovenkant van de website */
 #header {
- height: 125px;
- background-color: #89b5c5;
- text-align: center;
- font-size: 22px;
-padding: 20px
+    background-color: #89b5c5;
+    color: #ffffff;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
+/* Maak de menu knop zonder bolletjes */
+#menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    /* geen bolletjes */
+}
+
+/* Maak de menu wit zonder decoratie */
+#menu a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Dit is de tekst kleur en de fonts */
 body {
- font-family: Arial, sans-serif;
- color: #333333;
- margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    margin: 0;
 
 }
 
+/* Dit is het lijst dat de producten onder elkaar komen en dat er een gat tussen elk product zit */
+.producten {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
+/* dit maakt de omheensel van de tekst van de producten op de voorpagina */
 .product {
-margin-bottom: 20px;     
-border: 2px solid #cccccc;
-padding: 10px;           
-display:inline-block
+    width: 293px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #ffffff;
 }
 
+/* dit laat alle foto's passen in de border die hiervoor gemaakt was en geeft het een border */
 .product img {
- width: 300px;    
+    width: 100%;
+    height: 200px;
+    object-fit: scale-down;
+    border-radius: 4px;
 }
 
+
+/* Geef elke prijs een kleur met een dikkere font en weight */
 .prijs {
- color: #180802;
- font-weight: bold;
- font-size: 20px;
+    color: #180802;
+    font-weight: bold;
+    font-size: 20px;
 }
 
+/* Maak de bekijk knop aan met een blauwe kleur */
+.knop {
+    display: inline-block;
+    background-color: #0fa3d9;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+/* Dit geeft elke product in de detail pagina ongeveer hetzelfde als de voorpagina, met gap en een margin aan de bovenkant */
+.detail {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+/* Dit geeft elke product zoals in de detail pagina ongeveer hetzelfde als de voorpagina, een width van 450px en border van 8 px */
+.detail img {
+    width: 450px;
+    border-radius: 8px;
+}
+
+
+/* Als je over de bekijk knop hovert wordt ie iets donkerder */
+.knop:hover {
+    background-color: #5d7a85;
+}
+
+/* In dit stukje staat alle producten en belangrijke informatie, geeft ook de kleur een beetje licht grijs en maakt de tekst gecentreerd */
 #content {
- background-color: #efeaea;
- text-align: center;
- padding: 20px; 
+    background-color: #efeaea;
+    text-align: center;
+    padding: 20px;
 }
 
 
-#content_ns2 {
- background-color: #efae96
-
-}
-
-#content_tlozoot {
- background-color: #669f60
-
-}
-#content_gta6 {
-background-color: #7ab2ca   
-}
-
-#content_codmw4 {
- background-color:  #9ba09b
-
-}
-
-#content_ps5contwit {
- background-color:  #dce0e9
-
-}
-
-#content_mk8d {
- background-color: #40dafa
-
-}
-
+/* De onderkant van de pagina, met donkere kleur en de algemene voorwaarden */
 #footer {
- background-color: #979292;
- color: #efeaea;
- padding: 20px;
- text-align: center;
+    background-color: #979292;
+    color: #efeaea;
+    padding: 20px;
+    text-align: center;
 }
-
